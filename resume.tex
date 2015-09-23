@@ -1,0 +1,58 @@
+\documentclass[11pt,line,centered]{res}
+\usepackage{microtype}
+\usepackage{url}
+\usepackage{tabulary}
+\begin{document}
+
+\name{\Huge Darrin J. Dykes}
+\address{\scriptsize ddykes2@gmail.com | 971-238-4828 | github.com/rsq2}
+
+\begin{resume}
+    \bigskip
+
+    \section{\sectionfont\normalsize Relevant Work Experience}\\
+    \vspace{1em}
+    {\bfseries\footnotesize Help Desk \& Content Manager}, \footnotesize {Oregon First Real Estate \hfill \textit{Portland, OR Feb. 2015 - Current}}\\
+        \vspace{-8mm}
+        \begin{itemize}
+            \setlength\itemsep{0em}
+            \item{\footnotesize Scripted an automation using Ruby, Selenium, and the Quickbase API to cross reference company databases with the MLS, retroactively auditing previous years
+                                of manual entry for the first time at zero cost.}
+            \item{\footnotesize Gathered specifications and developed style guidelines for customer facing profile pages. Implemented new CSS classes and Javascript within the company WordPress
+                                to match new guidelines.}\\
+        \end{itemize}
+        \vspace{-5mm}
+
+    {\bfseries\footnotesize Lobbyist}, \footnotesize {J.K. Belz \& Associates (short-term contract) \hfill \textit{Portland, OR Sept. 2014 - Dec. 2015}}\\
+        \vspace{-8mm}
+        \begin{itemize}
+            \setlength\itemsep{0em}
+            \item{\footnotesize Scripted automations using Python and Selenium that aggregated public voting and legislative district data from state websites, completing months of
+                                backlogged data entry in hours.}\\
+        \end{itemize}
+
+    \section{\sectionfont\normalsize Projects}\\
+    \vspace{1em}
+        {\bfseries\footnotesize Raytracing Engine} \hfill \textit{Python}\\
+            A basic raytracing engine in Python 2.7. This project features a recursive algorithm, extensive polymorphism / operator overloading, and clearly defined object classes. My goal for this project was to create a lightweight, extensible structure such that new geometry and textures can easily be added later. A fun note: when I started this, I had never worked with linear algebra.\\
+        \vspace{2mm}\\
+        {\bfseries\footnotesize Google Maps Scraper} \hfill \textit{Ruby, Capybara, Selenium}\\
+            A toy automation that will look up a .CSV's address contents in Google Maps. Robust tests and error handling using Rspec to account to lookup failure and approximated addresses. This is a demo project I used to apply to Hack Oregon 2015, a volunteer program to expose and analyze public datastreams.\\
+        \vspace{2mm}\\
+        {\bfseries\footnotesize Real Estate Transaction Notifier} \hfill \textit{Python}\\
+            A simple passthrough mailing system using the Gmail API that scans e-mails, extracts tagged variables, and reconstructs sanitized, branded e-mails for distribution. This was an independent project done for my current employer. Eliminated a cumulative 20 hrs/wk of labor (\$15,000/yr in savings).\\
+
+    \section{\sectionfont\normalsize Technologies}\\
+    \vspace{1em}
+    \begin{tabulary}{\linewidth}{RJ}
+        \bfseries{Prog. Languages} & Proficient with Python, Ruby, Javascript | Familiar with Java, Haskell \\
+        \\
+        \bfseries{Web} & Familiar with Rails \& MEAN stacks | Proficient HTML, CSS, jQuery skills | Experience developing with RESTful APIs\\
+        \\
+        \bfseries{Automation / Testing} &  Paid experience coding automations using Selenium Webdriver. | Familiar with py.test with Python unittest. Rspec, and Cucumber Ruby testing frameworks.\\
+        \\
+        \bfseries{DB / Other} & Familiar with mySQL, noSQL (MongoDB) | Experience using \LaTeX\ for general purpose typesetting | Dedicated Linux user\\
+    \end{tabulary}
+
+\end{resume}
+\end{document}
